@@ -13,6 +13,8 @@
 		7A149F8A2621950F002C6F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A149F752621950D002C6F21 /* ContentView.swift */; };
 		7A149F8B2621950F002C6F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A149F762621950F002C6F21 /* Assets.xcassets */; };
 		7A149F8C2621950F002C6F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A149F762621950F002C6F21 /* Assets.xcassets */; };
+		7A149F9826219848002C6F21 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A149F9726219848002C6F21 /* ViewModel.swift */; };
+		7A149F9926219848002C6F21 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A149F9726219848002C6F21 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		7A149F832621950F002C6F21 /* CompareItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompareItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A149F852621950F002C6F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A149F862621950F002C6F21 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7A149F9726219848002C6F21 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				7A149F742621950D002C6F21 /* CompareItemApp.swift */,
+				7A149F9726219848002C6F21 /* ViewModel.swift */,
 				7A149F752621950D002C6F21 /* ContentView.swift */,
 				7A149F762621950F002C6F21 /* Assets.xcassets */,
 			);
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A149F892621950F002C6F21 /* ContentView.swift in Sources */,
+				7A149F9826219848002C6F21 /* ViewModel.swift in Sources */,
 				7A149F872621950F002C6F21 /* CompareItemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A149F8A2621950F002C6F21 /* ContentView.swift in Sources */,
+				7A149F9926219848002C6F21 /* ViewModel.swift in Sources */,
 				7A149F882621950F002C6F21 /* CompareItemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
